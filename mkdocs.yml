@@ -1,0 +1,15 @@
+site_name: Manual Penggunaan Aplikasi
+theme:
+  name: material
+  palette: 
+    primary: indigo  # Warna biru mirip SatuSehat
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+
+nav:
+  - Beranda: index.md
+  - Panduan Utama: 
+      - Cara Login: login.md
+      - Menu Utama: fitur.md
